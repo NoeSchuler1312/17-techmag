@@ -1,10 +1,63 @@
 body {
-  max-width: 320px;
+  max-width: 380px;
   margin: auto;
-  background: #ddd;
+  background: #e3f4ff;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 400;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+header {
+  background-image: url(../img/bg-header.jpg);
+  border-top: 8px solid #060e17;
+  padding: 30px 30px 20px 30px;
+}
+
+.section-produits {
+  background: #060e17;
+}
+
+.title-box {
+  background: #060e17ee;
+  color: #e3f4ff;
+  text-align: center;
+  padding: 30px 50px;
+  margin: 0 0 20px;
+}
+
+.tagline {
+  font-size: 20px;
+  margin: 0;
+}
+
+.cta-container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.cta {
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-size: 18px;
+  font-weight: 300;
+  margin: 10px 0;
+}
+
+.cta-dark {
+  background: #060e17;
+  color: #e3f4ff;
+}
+
+.cta-light {
+  background: #e3f4ff;
+  color: #000;
 }
